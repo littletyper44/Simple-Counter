@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Chivo', sans-serif;
+}
+body{
+	background-color: #1A1A1D;
+}
+.container{
+	background-image: linear-gradient(to bottom right, #C3073F, #950740);
+	color: white;
+	width: 50%;
+	border: 3px solid #FFF;
+	transform: translateX(50%);
+	border-radius: 5px;
+}
+.container button{
+	width: 60px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #FFF;
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
